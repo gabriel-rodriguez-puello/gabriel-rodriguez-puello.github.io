@@ -1,61 +1,32 @@
 ---
-title: "Unusual Uses For Olive Oil" 
-date: 2013-01-15
-tags: ["philology","oleic science","history of oil","Mediterranean world"]
-author: ["Detlev Amadeus Unterholzer","Moritz-Maria von Igelfeld"]
-description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
-summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
-cover:
-    image: "paper1.png"
-    alt: "Some Uses For Olive Oil"
-    relative: true
+title: "Digging for Trouble? Mining and Criminal Behavior of Young Males"
+date: 2026-12-31
+tags: ["labor economics","crime economics","natural resources","Sweden","difference-in-differences"]
+author: ["Gabriel Rodríguez-Puello"]
+description: "Job Market Paper. I exploit the 2004 iron ore boom in Northern Sweden to study how improved labor market opportunities affect criminal behavior of young males, using geocoded administrative data and a difference-in-differences design."
+summary: "**Job Market Paper.** I exploit the 2004 iron ore boom in Northern Sweden to study how improved labor market opportunities affect criminal behavior of young males. The boom reduced property crime by 52% but increased substance-related offenses by 181%, showing that economic shocks reshape the composition of criminal behavior."
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Oleic Science"
-
----
-
+    Text: "Job Market Paper"
 ---
 
 ##### Download
 
-+ [Paper](paper1.pdf)
-+ [Online appendix](appendix1.pdf)
-+ [Code and data](https://github.com/pmichaillat/feru)
++ [Paper](/jmp.pdf)
 
 ---
 
 ##### Abstract
 
-This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Using a difference-in-differences design and Swedish administrative data, I show that local mining booms reduce property crime among young males but increase substance-related offenses, revealing how economic shocks reshape the composition of criminal behavior.
 
 ---
 
-##### Figure 6: Some Uses For Olive Oil
+##### Figure 2: Event study of the impact of the mining boom on criminal behavior, 2000–2015
 
-![](paper1.png)
+![Event study of the impact of the mining boom on criminal behavior](figure.png)
 
 ---
 
 ##### Citation
 
-Unterholzer, Detlev A., and  Moritz-Maria von Igelfeld. 2013. "Unusual Uses For Olive Oil." *Journal of Oleic Science* 34 (1): 449–489. http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil.
-
-```latex
-@article{UI13,
-author = {Detlev A. Unterholzer and Moritz-Maria von Igelfeld},
-year = {2013},
-title ={Unusual Uses For Olive Oil},
-journal = {Journal of Oleic Science},
-volume = {34},
-number = {1},
-pages = {449--489},
-url = {http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil}}
-```
-
----
-
-##### Related material
-
-+ [Presentation slides](presentation1.pdf)
-+ [Summary of the paper](https://www.penguinrandomhouse.com/books/110403/unusual-uses-for-olive-oil-by-alexander-mccall-smith/)
+Rodríguez-Puello, Gabriel. 2025. "Digging for Trouble? Mining and Criminal Behavior of Young Males." Working paper.

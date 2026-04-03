@@ -1,61 +1,33 @@
 ---
-title: "The Finer Points of Sausage Dogs" 
-date: 2004-12-28
-tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
-author: ["Florianus Prinzel", "Moritz-Maria von Igelfeld"]
-description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
-summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
-cover:
-    image: "paper2.png"
-    alt: "Dimensions of a sausage dog"
-    relative: true
+title: "Diffusion of Economic Shocks in the Labor Market: Evidence from a Mining Boom"
+date: 2026-01-01
+tags: ["labor economics","economic shocks","natural resources","Sweden","applied microeconomics"]
+author: ["Gabriel Rodríguez-Puello","Jonna Rickardsson"]
+description: "Forthcoming in Labour Economics, 2026."
+summary: "Forthcoming in *Labour Economics*, 2026. Joint with Jonna Rickardsson."
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Canine Science"
-
----
-
+    URL: "https://doi.org/10.1016/j.labeco.2026.102879"
+    Text: "Labour Economics, Forthcoming"
 ---
 
 ##### Download
 
-+ [Paper](paper2.pdf)
-+ [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/wunk-model)
++ [Published paper](https://doi.org/10.1016/j.labeco.2026.102879)
 
 ---
 
 ##### Abstract
 
-This paper studies the pulmonary efficiency of sausage dogs. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur: $\sin(\theta) = x^2 - \exp(1+\chi)$. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor $\zeta$ incididunt ut labore et dolore magna aliqua: $p(x) = \int \cos(\zeta) d\zeta - \theta$. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This paper examines how the labor market effects of an economic shock diffuse across space and sectors, and how these effects vary across individual characteristics and for migrants. We exploit the mining boom in Northern Sweden triggered by the unexpected increase in international resource prices in 2004, using geocoded individual-level administrative data and dynamic difference-in-differences specifications. We find consistent positive effects of the mining boom on earnings that extend up to 27 km from the mines during the first boom years and up to 83 km in subsequent years. We find particularly large gains in earnings and employment for residents directly employed in the mining sector, as well as significant positive earnings spillover effects in other sectors such as manufacturing, construction, and services. At the same time, the service sector experiences negative employment effects, consistent with a dominant resource movement effect relative to the local spending effect: the expanding mining sector draws workers away from other activities in a context of limited local labor supply. Finally, we find significant in-migration of young, unmarried, and highly educated individuals to mining areas, who benefit from the boom in terms of earnings and employment; this is especially true for migrants who relocate to work directly in the mining sector.
 
 ---
 
-##### Figure 2: Dimensions of a sausage dog
+##### Figure 4: Event study of the impact of the mining boom on yearly earnings, 2000–2015
 
-![](paper2.png)
+![Event study of the impact of the mining boom on yearly earnings](figure.png)
 
 ---
 
 ##### Citation
 
-Prinzel, Florianus, and Moritz-Maria von Igelfeld. 2004. "The Finer Points of Sausage Dogs." *Journal of Canine Science* 43 (2): 89–109. http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs.
-
-```latex
-@article{PI04,
-author = {Florianus Prinzel and Moritz-Maria von Igelfeld},
-year = {2004},
-title ={The Finer Points of Sausage Dogs},
-journal = {Journal of Canine Science},
-volume = {43},
-number = {2},
-pages = {89--109},
-url = {http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs}}
-```
-
----
-
-##### Related material
-
-+ [Presentation slides](presentation2.pdf)
-+ [Wikipedia entry](https://en.wikipedia.org/wiki/The_Finer_Points_of_Sausage_Dogs)
+Rodríguez-Puello, Gabriel, and Jonna Rickardsson. 2026. "Diffusion of Economic Shocks in the Labor Market: Evidence from a Mining Boom." *Labour Economics*, Forthcoming.

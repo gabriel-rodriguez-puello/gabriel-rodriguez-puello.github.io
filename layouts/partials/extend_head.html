@@ -1,0 +1,71 @@
+<style>
+  /* ── Desktop: photo on right, text on left (Marcel Garz style) ── */
+  @media (min-width: 768px) {
+    .profile_inner {
+      display: grid;
+      grid-template-columns: 1fr 240px;
+      grid-template-rows: auto auto auto auto;
+      column-gap: 2.5rem;
+      text-align: left;
+      align-items: start;
+    }
+    .profile_inner img {
+      grid-column: 2;
+      grid-row: 1 / 6;
+      width: 100% !important;
+      height: auto !important;
+      max-height: 320px;
+      object-fit: cover;
+      object-position: top center;
+      border-radius: 8px;
+    }
+    .profile_inner h1       { grid-column: 1; margin-bottom: 0.3rem; }
+    .profile_inner > span   { grid-column: 1; }
+    .profile_inner .social-icons { grid-column: 1; justify-content: flex-start; }
+    .profile_inner .buttons { grid-column: 1; justify-content: flex-start; }
+  }
+
+  /* ── Mobile: stacked, centered ── */
+  @media (max-width: 767px) {
+    .profile_inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .profile_inner img {
+      width: 160px !important;
+      height: auto !important;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      object-fit: cover;
+      object-position: top center;
+    }
+    /* Make recent/news list readable on small screens */
+    .profile_inner > span ul {
+      padding-left: 1.2rem;
+      text-align: left;
+    }
+    /* Wrap long text in buttons */
+    .buttons {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  /* ── Paper pages: figure caption styling ── */
+  .post-content figure {
+    margin: 1.5rem 0;
+    text-align: center;
+  }
+  .post-content figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  .post-content figure figcaption {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 0.5rem;
+  }
+</style>

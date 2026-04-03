@@ -1,52 +1,26 @@
 ---
-title: "Your Inner Hedgehog" 
-date: 2021-04-06
-tags: ["social psychology","inner hedgehog","academia","experimental psychology","invasive thoughts"]
-author: ["Hilda Schreiber-Ziegler", "Moritz-Maria von Igelfeld"]
-description: "This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021." 
-summary: "Using several case studies, this paper describes the inner hedgehog, a psychological condition widespread in academic occupations. The condition has lasting consequences and no known cure." 
-cover:
-    image: "paper3.png"
-    alt: "Vizualisation of an inner hedgehog"
-    relative: true
+title: "Local Economic Shocks and Entrepreneurship Dynamics"
+date: 2025-09-01
+tags: ["labor economics","entrepreneurship","economic shocks","applied microeconomics"]
+author: ["Gabriel Rodríguez-Puello","Orsa Kekezi"]
+description: "Working paper. Submitted. Joint with Orsa Kekezi."
+summary: "Working paper. **Stage: Submitted.** Joint with Orsa Kekezi."
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Socio-Experimental Psychology"
-
----
-
----
-
-##### Download
-
-+ [Paper](paper3.pdf)
-+ [Raw data](https://github.com/pmichaillat/michez-rule)
-
+    Text: "Working Paper – Submitted"
 ---
 
 ##### Abstract
 
-Using several case studies, this paper describes the inner hedgehog, a psychological condition widespread in academic occupations. The condition has lasting consequences and no known cure. Mauris tincidunt quam a libero consequat, nec pharetra nunc tristique. Pellentesque eget ipsum ut dui laoreet congue ut nec nulla. Nulla facilisi. Sed consequat, odio ac aliquet tempor, turpis augue auctor mauris, at malesuada sem dolor eget libero. Nullam iaculis malesuada risus, id fringilla quam sagittis ac. Fusce congue vel ex et facilisis. Integer volutpat eros ut urna efficitur, id efficitur sapien pharetra.
+This paper examines how local economic shocks affect entrepreneurship, considering entry (extensive margin) and performance of existing entrepreneurs and their firms (intensive margin). Exploiting Sweden's 2004 mining boom as an exogenous shock, we use administrative data (2000–2015) and difference-in-differences estimates comparing individuals within 80 km of a mine to those 80–150 km away. The boom increased entrepreneurial entry but not the number of new firms, as many entrants were hybrid entrepreneurs reallocating effort to existing ventures. Incumbents gained through higher capital income and lower exit risk, while treated firms expanded employment and wage costs without improving operating profits.
 
 ---
 
-##### Citation
+##### Figure 2: Event study of the impact of the mining boom on entering entrepreneurship
 
-Schreiber-Ziegler, Hilda, and Moritz-Maria von Igelfeld. 2021. "Your Inner Hedgehog." *Journal of Socio-Experimental Psychology* 131 (2): 1299–1302.
-
-```latex
-@article{SZI21,
-author = {Hilda Schreiber-Ziegler and Moritz-Maria von Igelfeld},
-year = {2021},
-title ={Your Inner Hedgehog},
-journal = {Journal of Socio-Experimental Psychology},
-volume = {131},
-number = {2},
-pages = {1299--1302}}
-```
+![Event study of the impact of the mining boom on entering entrepreneurship](figure.png)
 
 ---
 
-##### Related material
+##### Authors
 
-+ [Nontechnical summary](https://www.alexandermccallsmith.com/book/your-inner-hedgehog)
+Gabriel Rodríguez-Puello and Orsa Kekezi
