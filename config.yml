@@ -76,8 +76,8 @@ params:
       - *The Journal of Development Studies* — "Socioeconomic Well-Being in the Face of Commodity Price Shocks" (2025)
       - **2026 conferences:** EALE (Barcelona) · ESPE (Helsinki) · WCERE (Cascais) · 2nd Berlin PhD Conference · YEM (Brno) · SOFI Seminar (Stockholm) · U. Reading Workshop
     imageUrl: "picture.png"
-    imageWidth: 220
-    imageHeight: 220
+    imageWidth: 300
+    imageHeight: 400
     buttons:
       - name: Job Market Paper
         url: /papers/paper1/
