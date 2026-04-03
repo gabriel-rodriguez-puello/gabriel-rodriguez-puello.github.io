@@ -11,73 +11,71 @@ disableAnchoredHeadings: false
 
 *MI = main instructor; TA = teaching assistant.*
 
-## Jönköping University
+## Graduate Level Courses
 
 **2026**
-- Master thesis co-supervision (8 students)
-- Macroeconomic Principles (TA)
-- Econometrics 2 (TA)
+- Master thesis co-supervision (8 students), Jönköping University
 
 **2025**
-- Master thesis co-supervision (5 students)
-- Macroeconomic Principles (TA)
-- Master Level Applied Econometrics (TA)
-- Microeconomic Principles (TA)
-- Intermediate Macroeconomics (TA)
+- Master thesis co-supervision (5 students), Jönköping University. Main examiner: Orsa Kekezi.
+- Applied Econometrics (Master), Jönköping University (TA). Main examiner: Paul Nystedt.
 
 **2024**
-- Master thesis co-supervision (4 students)
-- Master Level Applied Econometrics (TA)
-- Microeconomic Principles (TA)
-- Macroeconomic Principles (TA)
+- Master thesis co-supervision (4 students), Jönköping University. Main examiner: Orsa Kekezi.
+- Applied Econometrics (Master), Jönköping University (TA). Main examiner: Paul Nystedt.
 
 **2023**
-- Master Level Applied Econometrics (TA)
-- Intermediate Microeconomics (TA)
-- Economics for a Sustainable Society (TA)
-- Bachelor thesis co-supervision (8 students)
-- Macroeconomic Principles (TA)
+- Applied Econometrics (Master), Jönköping University (TA). Main examiner: Paul Nystedt.
 
 **2022**
-- Master Level Applied Econometrics (TA)
+- Applied Econometrics (Master), Jönköping University (TA). Main examiner: Paul Nystedt.
 
 ---
 
-## Universidad Tecnológica de Bolívar, Colombia
+## Undergraduate Level Courses
+
+**2026**
+- Macroeconomic Principles, Jönköping University (TA).
+- Econometrics 2, Jönköping University (TA).
+
+**2025**
+- Intermediate Macroeconomics, Jönköping University (TA). Main examiner: Benjamin Larin.
+- Microeconomic Principles, Jönköping University (TA). Main examiner: Charlotta Melander.
+- Macroeconomic Principles, Jönköping University (TA). Main examiner: Benjamin Larin.
+
+**2024**
+- Microeconomic Principles, Jönköping University (TA). Main examiner: Charlotta Melander.
+- Macroeconomic Principles, Jönköping University (TA). Main examiner: Benjamin Larin.
+
+**2023**
+- Intermediate Microeconomics, Jönköping University (TA). Main examiner: Andrea Schneider.
+- Economics for a Sustainable Society, Jönköping University (TA). Main examiner: Anna Nordén.
+- Bachelor thesis co-supervision (8 students), Jönköping University. Main examiner: Orsa Kekezi.
+- Macroeconomic Principles, Jönköping University (TA). Main examiner: Benjamin Larin.
 
 **2022**
-- Economics and Ethics (MI)
-- Research Seminar (MI)
-- Formulation and Evaluation of Projects (MI)
-- Intermediate Macroeconomics (MI)
+- Economics and Ethics, Universidad Tecnológica de Bolívar (MI).
+- Research Seminar (×2), Universidad Tecnológica de Bolívar (MI).
+- Formulation and Evaluation of Projects, Universidad Tecnológica de Bolívar (MI).
+- Macroeconomics II, Universidad Tecnológica de Bolívar (MI).
 
 **2021**
-- Economic Geography (MI)
-- Research Seminar (MI)
-- Formulation and Evaluation of Projects (MI)
-- Intermediate Macroeconomics (MI)
-- Industrial Organization (MI)
-- Macroeconomic Principles (MI)
-
-**2017**
-- Intermediate Macroeconomics (TA)
-- Macroeconomic Principles (TA)
-
----
-
-## Universidad Católica del Norte, Chile
+- Economic Geography, Universidad Tecnológica de Bolívar (MI).
+- Research Seminar, Universidad Tecnológica de Bolívar (MI).
+- Macroeconomics II, Universidad Tecnológica de Bolívar (MI).
+- Formulation and Evaluation of Projects, Universidad Tecnológica de Bolívar (MI).
+- Introduction to Stata for Social Sciences, IPREG, Universidad de Cartagena (MI).
+- Industrial Organization, Universidad Tecnológica de Bolívar (MI).
+- Macroeconomics I (×2), Universidad Tecnológica de Bolívar (MI).
 
 **2020**
-- Inferential Statistics (MI)
-- Intermediate Macroeconomics (MI)
-- Introduction to Economics (MI)
+- Statistics II, Universidad Católica del Norte (MI).
+- Macroeconomics II, Universidad Católica del Norte (MI).
+- Introduction to Economics, Universidad Católica del Norte (MI).
 
 **2019**
-- Intermediate Macroeconomics (MI)
+- Macroeconomics II (×2), Universidad Católica del Norte (MI).
 
----
-
-## Universidad de Cartagena, Colombia
-
-**2021**
-- Introduction to Stata for Social Sciences (MI)
+**2017**
+- Macroeconomics I, Universidad Tecnológica de Bolívar (TA). Main examiner: Aarón Espinosa.
+- Macroeconomics II, Universidad Tecnológica de Bolívar (TA). Main examiner: Aarón Espinosa.
