@@ -1,6 +1,6 @@
 {{- with site.Params.profileMode }}
 <div class="profile">
-  <div style="display:flex; flex-direction:row; align-items:flex-start; gap:3rem; text-align:left; width:100%; max-width:900px; margin:0 auto;">
+  <div style="display:flex; flex-direction:row; align-items:flex-start; gap:2rem; text-align:left; width:100%; max-width:900px; margin:0 auto;">
 
     {{/* LEFT: text */}}
     <div style="flex:1; min-width:0;">
@@ -34,7 +34,7 @@
     {{- if not (urls.Parse .imageUrl).IsAbs }}
       {{- $img = resources.Get .imageUrl }}
     {{- end }}
-    <div style="flex-shrink:0; width:280px;">
+    <div style="flex-shrink:0; width:210px;">
       {{- if $img }}
         <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}"
           style="width:100%; height:auto; border-radius:8px; object-fit:cover; object-position:top center; display:block;" />

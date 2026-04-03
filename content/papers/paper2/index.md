@@ -4,11 +4,11 @@ date: 2026-01-01
 tags: ["labor economics","economic shocks","natural resources","Sweden","applied microeconomics"]
 author: ["Gabriel Rodríguez-Puello","Jonna Rickardsson"]
 category: "published"
-description: "Forthcoming in Labour Economics, 2026."
-summary: "Forthcoming in *Labour Economics*, 2026. Joint with Jonna Rickardsson (Jönköping International Business School)."
+description: "Published in Labour Economics, 100, 102879. 2026."
+summary: "Published in *Labour Economics*, 100, 102879. 2026. Joint with Jonna Rickardsson (Jönköping International Business School)."
 editPost:
     URL: "https://doi.org/10.1016/j.labeco.2026.102879"
-    Text: "Labour Economics, Forthcoming"
+    Text: "Labour Economics, 2026"
 ---
 
 ##### Download
@@ -31,4 +31,15 @@ This paper examines how the labor market effects of an economic shock diffuse ac
 
 ##### Citation
 
-Rodríguez-Puello, Gabriel, and Jonna Rickardsson. 2026. "Diffusion of Economic Shocks in the Labor Market: Evidence from a Mining Boom." *Labour Economics*, Forthcoming.
+Rodríguez-Puello, Gabriel, and Jonna Rickardsson. 2026. "Diffusion of Economic Shocks in the Labor Market: Evidence from a Mining Boom." *Labour Economics* 100: 102879.
+
+```latex
+@article{rodriguez2026diffusion,
+  author  = {Rodr\'iguez-Puello, Gabriel and Rickardsson, Jonna},
+  year    = {2026},
+  title   = {Diffusion of Economic Shocks in the Labor Market: Evidence from a Mining Boom},
+  journal = {Labour Economics},
+  volume  = {100},
+  pages   = {102879},
+  doi     = {10.1016/j.labeco.2026.102879}}
+```

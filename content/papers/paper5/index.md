@@ -4,11 +4,11 @@ date: 2025-03-01
 tags: ["migration","well-being","labor economics","applied microeconomics"]
 author: ["Gabriel Rodríguez-Puello","Leonidas Hernandez","Diana Romero-Espinosa","Francisco Rowe"]
 category: "published"
-description: "Forthcoming in Journal of Happiness Studies, 2025."
-summary: "Forthcoming in *Journal of Happiness Studies*, 2025. Joint with Leonidas Hernandez (Universidad Católica del Norte), Diana Romero-Espinosa (Universidad Tecnológica de Bolívar), and Francisco Rowe (University of Liverpool)."
+description: "Published in Journal of Happiness Studies, 26(6), 88. 2025."
+summary: "Published in *Journal of Happiness Studies*, 26(6), 88. 2025. Joint with Leonidas Hernandez (Universidad Católica del Norte), Diana Romero-Espinosa (Universidad Tecnológica de Bolívar), and Francisco Rowe (University of Liverpool)."
 editPost:
     URL: "https://doi.org/10.1007/s10902-025-00916-1"
-    Text: "Journal of Happiness Studies, Forthcoming"
+    Text: "Journal of Happiness Studies, 2025"
 ---
 
 ##### Download
@@ -31,4 +31,16 @@ People often move internationally to improve their personal situation. Yet, inte
 
 ##### Citation
 
-Rodríguez-Puello, Gabriel, Leonidas Hernandez, Diana Romero-Espinosa, and Francisco Rowe. 2025. "The Disruptive Long-Term Costs of International Migration on Subjective Well-Being." *Journal of Happiness Studies*, Forthcoming.
+Rodríguez-Puello, Gabriel, Leonidas Hernandez, Diana Romero-Espinosa, and Francisco Rowe. 2025. "The Disruptive Long-Term Costs of International Migration on Subjective Well-Being." *Journal of Happiness Studies* 26 (6): 88.
+
+```latex
+@article{rodriguez2025disruptive,
+  author  = {Rodr\'iguez-Puello, Gabriel and Hernandez, Leonidas and Romero-Espinosa, Diana and Rowe, Francisco},
+  year    = {2025},
+  title   = {The Disruptive Long-Term Costs of International Migration on Subjective Well-Being},
+  journal = {Journal of Happiness Studies},
+  volume  = {26},
+  number  = {6},
+  pages   = {88},
+  doi     = {10.1007/s10902-025-00916-1}}
+```
