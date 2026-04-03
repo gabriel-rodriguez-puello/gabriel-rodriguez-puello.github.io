@@ -1,6 +1,7 @@
 ---
 title: "Pre-PhD Publications"
-date: 2022-01-01
+date: 2020-01-01
+hideMeta: true
 tags: ["development economics","regional economics","labor economics","well-being","Chile","Colombia"]
 author: ["Gabriel Rodríguez-Puello"]
 category: "other"
