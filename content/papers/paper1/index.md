@@ -30,4 +30,4 @@ This paper studies how a positive local labor market shock affects criminal beha
 
 ##### Citation
 
-Rodríguez-Puello, Gabriel. 2025. "Digging for Trouble? Mining and Criminal Behavior of Young Males." Working paper.
+Rodríguez-Puello, Gabriel. 2026. "Digging for Trouble? Mining and Criminal Behavior of Young Males." Working paper.
