@@ -4,7 +4,7 @@ date: 2024-06-01
 tags: ["development economics","natural resources","investment","mining","applied microeconomics"]
 author: ["Steven Poelhekke","Gabriel Rodríguez-Puello"]
 description: "Working paper. Draft available upon request. Joint with Steven Poelhekke."
-summary: "Working paper. **Stage: Draft available upon request.** Joint with Steven Poelhekke (Vrije Universiteit Amsterdam)."
+summary: "Working paper. **Stage: Draft available upon request.** Joint with Steven Poelhekke (Vrije Universiteit Amsterdam and CEPR)."
 editPost:
     Text: "Working Paper – Draft available upon request"
 ---
@@ -23,4 +23,4 @@ This paper examines how investment freedom affects the use of natural resources,
 
 ##### Authors
 
-Steven Poelhekke and Gabriel Rodríguez-Puello
+Steven Poelhekke (Vrije Universiteit Amsterdam and CEPR) and Gabriel Rodríguez-Puello (Jönköping International Business School)

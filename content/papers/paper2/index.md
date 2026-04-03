@@ -4,7 +4,7 @@ date: 2026-01-01
 tags: ["labor economics","economic shocks","natural resources","Sweden","applied microeconomics"]
 author: ["Gabriel Rodríguez-Puello","Jonna Rickardsson"]
 description: "Forthcoming in Labour Economics, 2026."
-summary: "Forthcoming in *Labour Economics*, 2026. Joint with Jonna Rickardsson."
+summary: "Forthcoming in *Labour Economics*, 2026. Joint with Jonna Rickardsson (Jönköping International Business School)."
 editPost:
     URL: "https://doi.org/10.1016/j.labeco.2026.102879"
     Text: "Labour Economics, Forthcoming"

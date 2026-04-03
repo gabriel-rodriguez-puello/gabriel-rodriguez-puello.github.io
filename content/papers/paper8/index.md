@@ -4,7 +4,7 @@ date: 2024-01-01
 tags: ["labor economics","fertility","family economics","natural resources","applied microeconomics"]
 author: ["Gabriel Rodríguez-Puello","Paul Nystedt"]
 description: "Working paper. In progress. Joint with Paul Nystedt."
-summary: "Working paper. **Stage: In progress.** Joint with Paul Nystedt (Jönköping University)."
+summary: "Working paper. **Stage: In progress.** Joint with Paul Nystedt (Jönköping International Business School)."
 editPost:
     Text: "Working Paper – In progress"
 ---
@@ -23,4 +23,4 @@ We study how the 2004 iron ore price boom in Northern Sweden affected family for
 
 ##### Authors
 
-Gabriel Rodríguez-Puello and Paul Nystedt
+Gabriel Rodríguez-Puello (Jönköping International Business School) and Paul Nystedt (Jönköping International Business School)

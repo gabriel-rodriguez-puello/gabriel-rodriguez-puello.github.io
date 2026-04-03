@@ -4,7 +4,7 @@ date: 2025-09-01
 tags: ["labor economics","entrepreneurship","economic shocks","applied microeconomics"]
 author: ["Gabriel Rodríguez-Puello","Orsa Kekezi"]
 description: "Working paper. Submitted. Joint with Orsa Kekezi."
-summary: "Working paper. **Stage: Submitted.** Joint with Orsa Kekezi."
+summary: "Working paper. **Stage: Submitted.** Joint with Orsa Kekezi (Institute for Social Research, SOFI)."
 editPost:
     Text: "Working Paper – Submitted"
 ---
@@ -23,4 +23,4 @@ This paper examines how local economic shocks affect entrepreneurship, consideri
 
 ##### Authors
 
-Gabriel Rodríguez-Puello and Orsa Kekezi
+Gabriel Rodríguez-Puello (Jönköping International Business School) and Orsa Kekezi (Institute for Social Research, SOFI)
