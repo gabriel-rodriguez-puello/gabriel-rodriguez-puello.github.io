@@ -46,8 +46,6 @@ params:
 
   # Social icons — must be at top level, not inside profileMode
   socialIcons:
-    - name: CV
-      url: cv.pdf
     - name: Email
       url: mailto:gabriel.rodriguez@ju.se
     - name: Google Scholar
@@ -81,13 +79,13 @@ params:
     imageHeight: 220
     buttons:
       - name: Job Market Paper
-        url: papers/paper1/
+        url: /papers/paper1/
       - name: CV
-        url: cv.pdf
+        url: /cv.pdf
       - name: Papers
-        url: papers/
+        url: /papers/
       - name: Courses
-        url: courses/
+        url: /courses/
 
   assets:
     disableScrollBarStyle: true
