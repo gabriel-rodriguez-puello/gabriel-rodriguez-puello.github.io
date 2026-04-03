@@ -3,6 +3,7 @@ title: "Investment Freedom and Resource Utilization: Insights from the Mining Se
 date: 2024-06-01
 tags: ["development economics","natural resources","investment","mining","applied microeconomics"]
 author: ["Steven Poelhekke","Gabriel Rodríguez-Puello"]
+category: "working"
 description: "Working paper. Draft available upon request. Joint with Steven Poelhekke."
 summary: "Working paper. **Stage: Draft available upon request.** Joint with Steven Poelhekke (Vrije Universiteit Amsterdam and CEPR)."
 editPost:

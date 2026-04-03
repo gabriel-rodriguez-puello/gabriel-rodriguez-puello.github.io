@@ -3,6 +3,7 @@ title: "Diffusion of Economic Shocks in the Labor Market: Evidence from a Mining
 date: 2026-01-01
 tags: ["labor economics","economic shocks","natural resources","Sweden","applied microeconomics"]
 author: ["Gabriel Rodríguez-Puello","Jonna Rickardsson"]
+category: "published"
 description: "Forthcoming in Labour Economics, 2026."
 summary: "Forthcoming in *Labour Economics*, 2026. Joint with Jonna Rickardsson (Jönköping International Business School)."
 editPost:

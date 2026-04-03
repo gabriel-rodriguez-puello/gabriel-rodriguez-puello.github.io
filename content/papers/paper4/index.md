@@ -3,6 +3,7 @@ title: "Socioeconomic Well-Being in the Face of Commodity Price Shocks: Evidence
 date: 2025-06-01
 tags: ["development economics","commodity prices","natural resources","Chile","well-being"]
 author: ["Gabriel Rodríguez-Puello"]
+category: "published"
 description: "Published in The Journal of Development Studies, 61(7), 1081–1109. 2025."
 summary: "Published in *The Journal of Development Studies*, 61(7), 1081–1109. 2025."
 editPost:

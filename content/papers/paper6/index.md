@@ -3,6 +3,7 @@ title: "The Duality of Competition Networks in International Pricing Power"
 date: 2024-09-01
 tags: ["international economics","competition","networks","applied microeconomics"]
 author: ["Luis Miguel Bolivar","Gabriel Rodríguez-Puello","Miguel Gómez"]
+category: "working"
 description: "Working paper. Revise & Resubmit, Journal of International Marketing."
 summary: "Working paper. **Stage: Revise & Resubmit**, *Journal of International Marketing*. Joint with Luis Miguel Bolivar (EAFIT University) and Miguel Gómez (Cornell University)."
 editPost:

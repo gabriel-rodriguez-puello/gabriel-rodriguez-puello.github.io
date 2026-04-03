@@ -3,6 +3,7 @@ title: "The Impact of Economic Opportunity on Fertility and Family Formation"
 date: 2024-01-01
 tags: ["labor economics","fertility","family economics","natural resources","applied microeconomics"]
 author: ["Gabriel Rodríguez-Puello","Paul Nystedt"]
+category: "working"
 description: "Working paper. In progress. Joint with Paul Nystedt."
 summary: "Working paper. **Stage: In progress.** Joint with Paul Nystedt (Jönköping International Business School)."
 editPost:

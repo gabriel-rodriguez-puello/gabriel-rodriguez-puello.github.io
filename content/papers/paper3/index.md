@@ -3,6 +3,7 @@ title: "Local Economic Shocks and Entrepreneurship Dynamics"
 date: 2025-09-01
 tags: ["labor economics","entrepreneurship","economic shocks","applied microeconomics"]
 author: ["Gabriel Rodríguez-Puello","Orsa Kekezi"]
+category: "working"
 description: "Working paper. Submitted. Joint with Orsa Kekezi."
 summary: "Working paper. **Stage: Submitted.** Joint with Orsa Kekezi (Institute for Social Research, SOFI)."
 editPost:
