@@ -1,49 +1,54 @@
 <style>
-  /* ── Desktop: photo on right, text on left ── */
-  @media (min-width: 768px) {
-    .main .profile {
-      align-items: start !important;
-    }
-    .profile .profile_inner {
-      display: grid !important;
-      grid-template-columns: 1fr 300px;
-      column-gap: 3rem;
-      align-items: start;
-      text-align: left;
-      gap: 0 3rem;
-    }
-    .profile .profile_inner img {
-      grid-column: 2;
-      grid-row: 1 / 7;
-      width: 100% !important;
-      height: auto !important;
-      object-fit: cover;
-      object-position: top center;
-      border-radius: 8px !important;
-    }
-    .profile .profile_inner h1        { grid-column: 1; margin-bottom: 0.3rem; }
-    .profile .profile_inner > span    { grid-column: 1; }
-    .profile .profile_inner .social-icons { grid-column: 1; justify-content: flex-start; }
-    .profile .profile_inner .buttons  { grid-column: 1; justify-content: flex-start; max-width: none; }
+  /* ── Profile layout ── */
+  .main .profile {
+    align-items: start !important;
+    justify-content: flex-start !important;
   }
+  .profile .profile_inner {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start;
+    gap: 3rem;
+    text-align: left;
+    width: 100%;
+    max-width: 860px;
+  }
+  .profile-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .profile-photo {
+    flex-shrink: 0;
+    width: 280px;
+  }
+  .profile-photo img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 8px !important;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+  }
+  .profile .profile_inner .social-icons { justify-content: flex-start; }
+  .profile .profile_inner .buttons { justify-content: flex-start; max-width: none; }
 
-  /* ── Mobile: stacked, centered ── */
+  /* ── Mobile: stacked ── */
   @media (max-width: 767px) {
-    .profile .profile_inner img {
-      width: 180px !important;
-      height: auto !important;
-      border-radius: 8px !important;
-      margin-bottom: 1rem;
-      object-fit: cover;
-      object-position: top center;
+    .profile .profile_inner {
+      flex-direction: column !important;
+      align-items: center;
+      text-align: center;
     }
-    .profile .profile_inner > span ul {
+    .profile-photo {
+      width: 200px;
+    }
+    .profile .profile_inner .social-icons { justify-content: center; }
+    .profile .profile_inner .buttons { justify-content: center; }
+    .profile .profile_inner > .profile-text > span ul {
       padding-left: 1.2rem;
       text-align: left;
-    }
-    .buttons {
-      flex-wrap: wrap;
-      justify-content: center;
     }
   }
 

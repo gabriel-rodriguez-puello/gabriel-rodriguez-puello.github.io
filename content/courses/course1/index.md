@@ -14,7 +14,7 @@ disableAnchoredHeadings: false
 ## Graduate Level Courses
 
 **2026**
-- Master thesis co-supervision (8 students), Jönköping University
+- Master thesis co-supervision (8 students), Jönköping University. Main examiner: Orsa Kekezi.
 
 **2025**
 - Master thesis co-supervision (5 students), Jönköping University. Main examiner: Orsa Kekezi.
