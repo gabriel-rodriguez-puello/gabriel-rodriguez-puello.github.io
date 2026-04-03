@@ -1,14 +1,14 @@
 {{- with site.Params.profileMode }}
 <div class="profile">
-  <div class="profile_inner">
+  <div style="display:flex; flex-direction:row; align-items:flex-start; gap:3rem; text-align:left; width:100%; max-width:900px; margin:0 auto;">
 
-    {{/* LEFT COLUMN: text content */}}
-    <div class="profile-text">
-      <h1>{{ .title | default site.Title | markdownify }}</h1>
+    {{/* LEFT: text */}}
+    <div style="flex:1; min-width:0;">
+      <h1 style="margin-bottom:0.4rem;">{{ .title | default site.Title | markdownify }}</h1>
       <span>{{ .subtitle | markdownify }}</span>
       {{- partial "social_icons.html" -}}
       {{- with .buttons }}
-      <div class="buttons">
+      <div class="buttons" style="justify-content:flex-start; max-width:none;">
         {{- range . }}
         <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
           <span class="button-inner">
@@ -28,21 +28,39 @@
       {{- end }}
     </div>
 
-    {{/* RIGHT COLUMN: photo */}}
+    {{/* RIGHT: photo */}}
     {{- if .imageUrl -}}
     {{- $img := "" }}
     {{- if not (urls.Parse .imageUrl).IsAbs }}
       {{- $img = resources.Get .imageUrl }}
     {{- end }}
-    <div class="profile-photo">
+    <div style="flex-shrink:0; width:280px;">
       {{- if $img }}
-        <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" />
+        <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}"
+          style="width:100%; height:auto; border-radius:8px; object-fit:cover; object-position:top center; display:block;" />
       {{- else }}
-        <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" />
+        <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}"
+          style="width:100%; height:auto; border-radius:8px; object-fit:cover; object-position:top center; display:block;" />
       {{- end }}
     </div>
     {{- end }}
 
   </div>
 </div>
+
+<style>
+  /* Mobile: stack vertically */
+  @media (max-width: 767px) {
+    .profile > div {
+      flex-direction: column !important;
+      align-items: center !important;
+      text-align: center !important;
+    }
+    .profile > div > div:last-child {
+      width: 200px !important;
+    }
+    .social-icons { justify-content: center !important; }
+    .buttons { justify-content: center !important; }
+  }
+</style>
 {{- end }}
