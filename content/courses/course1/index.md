@@ -35,8 +35,8 @@ disableAnchoredHeadings: false
 ## Undergraduate Level Courses
 
 **2026**
-- Macroeconomic Principles, Jönköping University (TA).
-- Econometrics 2, Jönköping University (TA).
+- Macroeconomic Principles, Jönköping University (TA). Main examiner: Benjamin Larin.
+- Econometrics 2, Jönköping University (TA). Main examiner: Pär Sjölander.
 
 **2025**
 - Intermediate Macroeconomics, Jönköping University (TA). Main examiner: Benjamin Larin.
