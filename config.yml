@@ -17,8 +17,8 @@ menu:
     - name: Papers
       url: papers/
       weight: 1
-    - name: Courses
-      url: courses/
+    - name: Teaching
+      url: teaching/
       weight: 2
 
 params:
@@ -36,7 +36,7 @@ params:
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowAllPagesInArchive: false
-  MainSections: ["papers","courses"]
+  MainSections: ["papers","teaching"]
   ShowToc: false
   disableScrollToTop: true
   TocOpen: true
@@ -89,8 +89,8 @@ params:
         url: /cv.pdf
       - name: Papers
         url: /papers/
-      - name: Courses
-        url: /courses/
+      - name: Teaching
+        url: /teaching/
 
   assets:
     disableScrollBarStyle: true
