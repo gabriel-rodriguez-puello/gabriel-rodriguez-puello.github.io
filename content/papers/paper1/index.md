@@ -1,7 +1,7 @@
 ---
 title: "Digging for Trouble? Mining and Criminal Behavior of Young Males"
 date: 2026-12-31
-tags: ["labor economics","crime economics","natural resources","Sweden","difference-in-differences"]
+tags: ["labor economics","economics of crime","natural resources","Sweden","difference-in-differences"]
 author: ["Gabriel Rodríguez-Puello"]
 category: "jmp"
 description: "Job Market Paper. I exploit the 2004 iron ore boom in Northern Sweden to study how improved labor market opportunities affect criminal behavior of young males, using geocoded administrative data and a difference-in-differences design."
