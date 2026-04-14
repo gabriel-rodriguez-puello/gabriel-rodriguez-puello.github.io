@@ -16,7 +16,7 @@ editPost:
 
 ---
 
-##### NotebookLM Podcast
+Listen to a NotebookLM-generated podcast:
 
 <audio controls src="/podcasts/paper1-podcast.m4a" style="width:100%;max-width:500px;"></audio>
 
