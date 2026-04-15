@@ -11,8 +11,6 @@ editPost:
     Text: "Download PDF"
 ---
 
-##### NotebookLM Podcast
-
 Listen to a NotebookLM-generated podcast:
 
 <audio controls src="/podcasts/paper3-podcast.m4a" style="width:100%;max-width:500px;"></audio>
