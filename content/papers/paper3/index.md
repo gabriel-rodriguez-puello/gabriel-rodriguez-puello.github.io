@@ -5,7 +5,7 @@ tags: ["labor economics","entrepreneurship","economic shocks","applied microecon
 author: ["Gabriel Rodríguez-Puello","Orsa Kekezi"]
 category: "working"
 description: "SOFI Working Papers in Labour Economics 13/2025. Submitted. Joint with Orsa Kekezi."
-summary: "Working paper. **SOFI Working Papers in Labour Economics 13/2025. Submitted.** Joint with Orsa Kekezi (Institute for Social Research, SOFI)."
+summary: "Working paper. **SOFI Working Papers in Labour Economics 13/2025. Submitted.** Joint with Orsa Kekezi (Swedish Institute for Social Research, SOFI)."
 editPost:
     URL: "/paper3.pdf"
     Text: "Download PDF"
@@ -31,4 +31,4 @@ This paper examines how local economic shocks affect entrepreneurship, consideri
 
 ##### Authors
 
-Gabriel Rodríguez-Puello (Jönköping International Business School) and Orsa Kekezi (Institute for Social Research, SOFI)
+Gabriel Rodríguez-Puello (Jönköping International Business School) and Orsa Kekezi (Swedish Institute for Social Research, SOFI)
