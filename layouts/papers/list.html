@@ -9,14 +9,17 @@
 
 {{- $pages := .RegularPages }}
 
-{{- $sections := slice
+{{- $sections1 := slice
   (dict "key" "jmp"       "label" "Job Market Paper")
   (dict "key" "published" "label" "Published &amp; Forthcoming")
   (dict "key" "working"   "label" "Working Papers")
-  (dict "key" "other"     "label" "Other Publications")
 }}
 
-{{- range $sections }}
+{{- $sections2 := slice
+  (dict "key" "other" "label" "Other Publications")
+}}
+
+{{- range $sections1 }}
   {{- $key := .key }}
   {{- $label := .label }}
   {{- $group := where $pages "Params.category" $key }}
@@ -52,6 +55,30 @@
   </li>
   {{- end }}
 </ul>
+{{- end }}
+
+{{- range $sections2 }}
+  {{- $key := .key }}
+  {{- $label := .label }}
+  {{- $group := where $pages "Params.category" $key }}
+  {{- if $group }}
+  <h2 style="margin-top:2rem; margin-bottom:0.5rem; border-bottom: 1px solid var(--border); padding-bottom:0.3rem;">
+    {{ $label | safeHTML }}
+  </h2>
+  {{- range $group.ByDate.Reverse }}
+  <article class="post-entry">
+    <header class="entry-header">
+      <h2>{{ .Title }}</h2>
+    </header>
+    {{- if (ne (.Param "hideSummary") true) }}
+    <div class="entry-content">
+      <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+    </div>
+    {{- end }}
+    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  </article>
+  {{- end }}
+  {{- end }}
 {{- end }}
 
 {{- end }}
