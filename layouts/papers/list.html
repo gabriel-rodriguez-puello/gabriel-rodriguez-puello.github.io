@@ -40,4 +40,18 @@
   {{- end }}
 {{- end }}
 
+{{- if .Params.workInProgress }}
+<h2 style="margin-top:2rem; margin-bottom:0.5rem; border-bottom: 1px solid var(--border); padding-bottom:0.3rem;">
+  Work in Progress
+</h2>
+<ul style="list-style:none; padding:0; margin:0;">
+  {{- range .Params.workInProgress }}
+  <li style="margin-bottom:0.5rem;">
+    <strong>{{ .title }}</strong>
+    {{- if .coauthors }} <em>(with {{ .coauthors }})</em>{{ end }}
+  </li>
+  {{- end }}
+</ul>
+{{- end }}
+
 {{- end }}
