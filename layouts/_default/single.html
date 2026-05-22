@@ -23,37 +23,6 @@
     </div>
     {{- end }}
   </header>
-  {{- if eq .Section "papers" }}
-  <div class="paper-stats">
-    <span>Views: <span id="gc-views">—</span></span>
-    <span>Downloads: <span id="gc-downloads">—</span></span>
-  </div>
-  <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var base = 'https://gabrielorp.goatcounter.com/counter/';
-    var path = window.location.pathname;
-    var dlPath = '/downloads' + path.replace(/\/$/, '');
-
-    fetch(base + encodeURIComponent(path) + '.json')
-      .then(function (r) { return r.json(); })
-      .then(function (d) { document.getElementById('gc-views').textContent = d.count; })
-      .catch(function () {});
-
-    fetch(base + encodeURIComponent(dlPath) + '.json')
-      .then(function (r) { return r.json(); })
-      .then(function (d) { document.getElementById('gc-downloads').textContent = d.count; })
-      .catch(function () {});
-
-    document.querySelectorAll('a[href$=".pdf"]').forEach(function (link) {
-      link.addEventListener('click', function () {
-        if (window.goatcounter && window.goatcounter.count) {
-          window.goatcounter.count({ path: dlPath, title: document.title });
-        }
-      });
-    });
-  });
-  </script>
-  {{- end }}
   {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
   {{- if (.Param "ShowToc") }}
@@ -85,6 +54,20 @@
 
   {{- if (.Param "comments") }}
   {{- partial "comments.html" . }}
+  {{- end }}
+  {{- if eq .Section "papers" }}
+  <div class="paper-stats">
+    <span>Views: <span id="gc-views">—</span></span>
+  </div>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var path = window.location.pathname;
+    fetch('https://gabrielorp.goatcounter.com/counter/' + encodeURIComponent(path) + '.json')
+      .then(function (r) { return r.json(); })
+      .then(function (d) { document.getElementById('gc-views').textContent = d.count; })
+      .catch(function () {});
+  });
+  </script>
   {{- end }}
 </article>
 
