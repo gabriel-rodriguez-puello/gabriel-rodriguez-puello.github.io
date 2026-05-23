@@ -7,13 +7,13 @@ category: "published"
 description: "Published in The Journal of Development Studies, 61(7), 1081–1109. 2025."
 summary: "Published in *The Journal of Development Studies*, 61(7), 1081–1109. 2025."
 editPost:
-    URL: "https://doi.org/10.1080/00220388.2024.2440793"
+    URL: "https://doi.org/10.1080/00220388.2025.2462025"
     Text: "The Journal of Development Studies, 2025"
 ---
 
 ##### Download
 
-+ [Published paper](https://doi.org/10.1080/00220388.2024.2440793)
++ [Published paper](https://doi.org/10.1080/00220388.2025.2462025)
 
 ---
 
@@ -48,5 +48,5 @@ journal = {The Journal of Development Studies},
 volume  = {61},
 number  = {7},
 pages   = {1081--1109},
-doi     = {10.1080/00220388.2024.2440793}}
+doi     = {10.1080/00220388.2025.2462025}}
 ```
