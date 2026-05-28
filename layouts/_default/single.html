@@ -61,7 +61,7 @@
   </div>
   <script>
   document.addEventListener('DOMContentLoaded', function () {
-    var path = window.location.pathname;
+    var path = window.location.pathname.replace(/\/$/, '') || '/';
     fetch('https://gabrielorp.goatcounter.com/counter/' + encodeURIComponent(path) + '.json')
       .then(function (r) { return r.json(); })
       .then(function (d) { document.getElementById('gc-views').textContent = d.count; })
