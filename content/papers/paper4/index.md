@@ -5,7 +5,7 @@ tags: ["development economics","commodity prices","natural resources","Chile","w
 author: ["Gabriel Rodríguez-Puello"]
 category: "published"
 description: "Published in The Journal of Development Studies, 61(7), 1081–1109. 2025."
-summary: "Published in *The Journal of Development Studies*, 61(7), 1081–1109. 2025."
+summary: "Published in **The Journal of Development Studies**, 61(7), 1081–1109. 2025."
 editPost:
     URL: "https://doi.org/10.1080/00220388.2025.2462025"
     Text: "The Journal of Development Studies, 2025"

@@ -5,7 +5,7 @@ tags: ["labor economics","economic shocks","natural resources","Sweden","applied
 author: ["Gabriel Rodríguez-Puello","Jonna Rickardsson"]
 category: "published"
 description: "Published in Labour Economics, 100, 102879. 2026."
-summary: "Published in *Labour Economics*, 100, 102879. 2026. Joint with Jonna Rickardsson (Jönköping International Business School)."
+summary: "Published in **Labour Economics**, 100, 102879. 2026. Joint with Jonna Rickardsson (Jönköping International Business School)."
 editPost:
     URL: "https://doi.org/10.1016/j.labeco.2026.102879"
     Text: "Labour Economics, 2026"

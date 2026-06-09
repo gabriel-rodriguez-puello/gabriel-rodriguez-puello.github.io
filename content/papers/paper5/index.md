@@ -5,7 +5,7 @@ tags: ["migration","well-being","labor economics","applied microeconomics"]
 author: ["Gabriel Rodríguez-Puello","Leonidas Hernandez","Diana Romero-Espinosa","Francisco Rowe"]
 category: "published"
 description: "Published in Journal of Happiness Studies, 26(6), 88. 2025."
-summary: "Published in *Journal of Happiness Studies*, 26(6), 88. 2025. Joint with Leonidas Hernandez (Universidad Católica del Norte), Diana Romero-Espinosa (Universidad Tecnológica de Bolívar), and Francisco Rowe (University of Liverpool)."
+summary: "Published in **Journal of Happiness Studies**, 26(6), 88. 2025. Joint with Leonidas Hernandez (Universidad Católica del Norte), Diana Romero-Espinosa (Universidad Tecnológica de Bolívar), and Francisco Rowe (University of Liverpool)."
 editPost:
     URL: "https://doi.org/10.1007/s10902-025-00916-1"
     Text: "Journal of Happiness Studies, 2025"
