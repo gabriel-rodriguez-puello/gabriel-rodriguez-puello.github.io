@@ -1,13 +1,13 @@
 ---
-title: "Investment Freedom: Mining for (Critical) Raw Materials in Developing Countries"
+title: "Investment Freedom: Mining for (Critical) Raw Minerals in Developing Countries"
 date: 2026-06-12
 tags: ["development economics","natural resources","investment","mining","applied microeconomics"]
 author: ["Steven Poelhekke","Gabriel Rodríguez-Puello"]
 category: "working"
-description: "Working paper. Draft available upon request. Joint with Steven Poelhekke."
-summary: "Working paper. **Stage: Draft available upon request.** Joint with Steven Poelhekke (Vrije Universiteit Amsterdam and CEPR)."
+description: "Working paper. Submitted. Joint with Steven Poelhekke."
+summary: "Working paper. **Stage: Submitted.** Joint with Steven Poelhekke (Vrije Universiteit Amsterdam and CEPR)."
 editPost:
-    Text: "Working Paper – Draft available upon request"
+    Text: "Working Paper – Submitted"
 ---
 
 Listen to a NotebookLM-generated podcast:

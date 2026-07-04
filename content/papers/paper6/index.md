@@ -4,10 +4,10 @@ date: 2024-09-01
 tags: ["international economics","competition","networks","applied microeconomics"]
 author: ["Luis Miguel Bolivar","Gabriel Rodríguez-Puello","Miguel Gómez"]
 category: "working"
-description: "Working paper. Revise & Resubmit, Journal of International Marketing."
-summary: "Working paper. **Stage: Revise & Resubmit**, *Journal of International Marketing*. Joint with Luis Miguel Bolivar (EAFIT University) and Miguel Gómez (Cornell University)."
+description: "Working paper. Revise & Resubmit (Round 2), Journal of International Marketing."
+summary: "Working paper. **Stage: Revise & Resubmit (Round 2)**, *Journal of International Marketing*. Joint with Luis Miguel Bolivar (EAFIT University) and Miguel Gómez (Cornell University)."
 editPost:
-    Text: "Working Paper – R&R, Journal of International Marketing"
+    Text: "Working Paper – R&R Round 2, Journal of International Marketing"
 ---
 
 Listen to a NotebookLM-generated podcast:
