@@ -4,8 +4,8 @@ date: 2025-09-01
 tags: ["labor economics","entrepreneurship","economic shocks","applied microeconomics"]
 author: ["Gabriel Rodríguez-Puello","Orsa Kekezi"]
 category: "working"
-description: "SOFI Working Papers in Labour Economics 13/2025. Submitted. Joint with Orsa Kekezi."
-summary: "Working paper. **SOFI Working Papers in Labour Economics 13/2025. Submitted.** Joint with Orsa Kekezi (Swedish Institute for Social Research, SOFI)."
+description: "SOFI Working Papers in Labour Economics 13/2025. Revise & Resubmit, Journal of Economic Behavior and Organization. Joint with Orsa Kekezi."
+summary: "Working paper. **SOFI Working Papers in Labour Economics 13/2025. Revise & Resubmit, Journal of Economic Behavior and Organization.** Joint with Orsa Kekezi (Swedish Institute for Social Research, SOFI)."
 editPost:
     URL: "/paper3.pdf"
     Text: "Download PDF"
