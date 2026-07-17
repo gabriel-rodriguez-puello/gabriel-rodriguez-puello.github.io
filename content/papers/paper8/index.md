@@ -3,10 +3,10 @@ title: "The Impact of Economic Opportunity on Fertility and Family Formation"
 draft: true
 date: 2024-01-01
 tags: ["labor economics","fertility","family economics","natural resources","applied microeconomics"]
-author: ["Gabriel Rodríguez-Puello","Paul Nystedt"]
+author: ["Gabriel Rodríguez-Puello"]
 category: "working"
-description: "Working paper. In progress. Joint with Paul Nystedt."
-summary: "Working paper. **Stage: In progress.** Joint with Paul Nystedt (Jönköping International Business School)."
+description: "Working paper. In progress."
+summary: "Working paper. **Stage: In progress.**"
 editPost:
     Text: "Working Paper – In progress"
 ---
@@ -25,4 +25,4 @@ We study how the 2004 iron ore price boom in Northern Sweden affected family for
 
 ##### Authors
 
-Gabriel Rodríguez-Puello (Jönköping International Business School) and Paul Nystedt (Jönköping International Business School)
+Gabriel Rodríguez-Puello (Jönköping International Business School)
