@@ -1,5 +1,5 @@
 ---
-title: "Papers"
+title: "Research"
 description: "Research papers by Gabriel Rodríguez-Puello."
 workInProgress:
   - title: "The Impact of Economic Opportunity on Fertility and Family Formation"
