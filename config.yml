@@ -88,7 +88,7 @@ params:
         url: /papers/paper1/
       - name: CV
         url: /cv.pdf
-      - name: Papers
+      - name: Research
         url: /papers/
       - name: Teaching
         url: /teaching/
