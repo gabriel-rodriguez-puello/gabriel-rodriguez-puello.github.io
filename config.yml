@@ -14,7 +14,7 @@ taxonomies:
 
 menu:
   main:
-    - name: Papers
+    - name: Research
       url: papers/
       weight: 1
     - name: Teaching
