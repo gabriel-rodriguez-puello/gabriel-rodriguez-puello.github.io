@@ -26,6 +26,9 @@
         {{- end }}
       </div>
       {{- end }}
+      {{- with .recentSection }}
+      <div style="margin-top:1rem;">{{ . | markdownify }}</div>
+      {{- end }}
     </div>
 
     {{/* RIGHT: photo */}}
