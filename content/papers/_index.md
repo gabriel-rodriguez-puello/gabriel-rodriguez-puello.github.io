@@ -5,6 +5,6 @@ workInProgress:
   - title: "The Impact of Economic Opportunity on Fertility and Family Formation"
   - title: "Perception Over Incidence? Crime, Fear, and Self-Assessed Health in Urban Chile"
     coauthors: "Carlo Caporali, Benjamin Jara, and Ariel Arcos"
-  - title: "First-in-Family Graduates as Class Background and Career Outcomes in Sweden"
+  - title: "Class Background and Career Progression Among University Graduates"
     coauthors: "Paul Nystedt"
 ---
