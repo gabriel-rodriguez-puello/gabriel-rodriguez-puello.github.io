@@ -4,10 +4,10 @@ date: 2026-06-12
 tags: ["development economics","natural resources","investment","mining","applied microeconomics"]
 author: ["Steven Poelhekke","Gabriel Rodríguez-Puello"]
 category: "working"
-description: "Working paper. Submitted. Joint with Steven Poelhekke."
-summary: "Working paper. **Stage: Submitted.** Joint with Steven Poelhekke (Vrije Universiteit Amsterdam and CEPR)."
+description: "Working paper. Stage: Revise & Resubmit, Resource and Energy Economics. Joint with Steven Poelhekke."
+summary: "Working paper. **Stage: Revise & Resubmit**, ***Resource and Energy Economics***. Joint with Steven Poelhekke (Vrije Universiteit Amsterdam and CEPR)."
 editPost:
-    Text: "Working Paper – Submitted"
+    Text: "Working Paper – R&R, Resource and Energy Economics"
 ---
 
 Listen to a NotebookLM-generated podcast:
