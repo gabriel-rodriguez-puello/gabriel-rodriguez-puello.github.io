@@ -1,3 +1,17 @@
+{{/* GoatCounter records the same-host <link rel="canonical"> instead of the URL
+     the visitor actually requested. Hugo's 404 page hard-codes that canonical to
+     /404.html, so every broken link on the site collapses into one "/404.html"
+     row and the missing URL is lost. When count.js hands us that default path,
+     substitute the real location so the dashboard shows what is actually broken.
+     Must come BEFORE count.js, which loads async. */}}
+<script>
+  window.goatcounter = {
+    path: function (p) {
+      return p === '/404.html' ? '404: ' + location.pathname + location.search : p
+    }
+  }
+</script>
+
 <script data-goatcounter="https://gabrielorp.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
