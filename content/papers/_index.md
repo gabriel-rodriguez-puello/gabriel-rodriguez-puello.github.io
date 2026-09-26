@@ -7,4 +7,6 @@ workInProgress:
     coauthors: "Carlo Caporali, Benjamin Jara, and Ariel Arcos"
   - title: "Class Background and Career Progression Among University Graduates"
     coauthors: "Paul Nystedt"
+  - title: "Misperceived Norms and Forest Conservation"
+    coauthors: "Anna Nordén, Jana Schuetz, and Ana Vignolo"
 ---
