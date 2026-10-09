@@ -1,9 +1,16 @@
 ---
 title: "List of Irregular Verbs Across Romance Languages" 
 date: 2013-03-07
-# Leftover theme demo page: keep out of search engines (see layouts/partials/head.html)
+# Leftover theme demo page: keep out of search engines (see layouts/partials/head.html).
+# render: always keeps the page served so crawlers can see the noindex tag;
+# list: never keeps it out of sitemap.xml, page listings, and the tag pages.
 robotsNoIndex: true
-tags: ["Romance languages","philology","irregular verbs","Portuguese","Italian","French","Spanish","simulations","dataset","python"]
+_build:
+  render: always
+  list: never
+# Demo tags commented out: Hugo generates a /tags/<term>/ page for each one even
+# when this page itself is unlisted, which put 10 empty tag pages in sitemap.xml.
+# tags: ["Romance languages","philology","irregular verbs","Portuguese","Italian","French","Spanish","simulations","dataset","python"]
 author: ["Patrick Fitzcarron O'Leary","Florianus Prinzel","Walter Schoeffler-Henschell","Detlev Amadeus Unterholzer", "Dieter Vogelsang","Moritz-Maria von Igelfeld"]
 description: "This dataset contains all irregular verbs in known Romance languages."
 summary: "This dataset contains all irregular verbs in known Romance languages."
