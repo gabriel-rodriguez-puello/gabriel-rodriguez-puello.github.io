@@ -2,6 +2,8 @@
 title: "Location"
 date: 2024-05-08
 hidemeta: true
+# Leftover theme demo page: keep out of search engines (see layouts/partials/head.html)
+robotsNoIndex: true
 description: "Professor Dr von Igelfeld's mailing and office addresses at the Institute of Romance Philology."
 
 ---
