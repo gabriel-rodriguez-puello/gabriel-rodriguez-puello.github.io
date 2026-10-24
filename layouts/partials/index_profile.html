@@ -3,9 +3,13 @@
   <div style="display:flex; flex-direction:row; align-items:flex-start; gap:2rem; text-align:left; width:100%; max-width:900px; margin:0 auto;">
 
     {{/* LEFT: text */}}
-    <div style="flex:1; min-width:0;">
+    <div class="profile-text" style="flex:1; min-width:0;">
       <h1 style="margin-bottom:0.4rem;">{{ .title | default site.Title | markdownify }}</h1>
-      <span>{{ .subtitle | markdownify }}</span>
+      <span class="profile-subtitle">{{ .subtitle | markdownify }}</span>
+      {{/* Separate from .subtitle so mobile can reorder the bio below the buttons. */}}
+      {{- with .bio }}
+      <div class="profile-bio">{{ . | markdownify }}</div>
+      {{- end }}
       {{- partial "social_icons.html" -}}
       {{- with .buttons }}
       <div class="buttons" style="justify-content:flex-start; max-width:none;">
@@ -27,7 +31,7 @@
       </div>
       {{- end }}
       {{- with .recentSection }}
-      <div style="margin-top:1rem;">{{ . | markdownify }}</div>
+      <div class="profile-recent" style="margin-top:1rem;">{{ . | markdownify }}</div>
       {{- end }}
     </div>
 
@@ -57,7 +61,10 @@
     max-width: calc(920px + var(--gap) * 2);
   }
 
-  /* Mobile: stack vertically */
+  /* Mobile: stack vertically, and reorder so the first screen shows the name,
+     the job market status and the four buttons. Without this the full bio sits
+     between the status line and the links, and a phone visitor has to scroll
+     past it to reach the JMP, CV, Research and Teaching buttons. */
   @media (max-width: 767px) {
     .profile > div {
       flex-direction: column !important;
@@ -69,6 +76,22 @@
     }
     .social-icons { justify-content: center !important; }
     .buttons { justify-content: center !important; }
+
+    .profile-text {
+      display: flex;
+      flex-direction: column;
+    }
+    .profile-text h1 { order: 1; }
+    .profile-text .profile-subtitle { order: 2; }
+    .profile-text .social-icons { order: 3; }
+    .profile-text .buttons { order: 4; }
+    .profile-text .profile-bio { order: 5; }
+    .profile-text .profile-recent { order: 6; }
+
+    /* The bio leads with a &nbsp; spacer that only made sense when it was glued
+       to the subtitle; drop the extra gap now that buttons sit above it. */
+    .profile-text .profile-bio > p:first-child { margin-top: 0; }
+    .profile-text .profile-bio ul { padding-left: 1.2rem; text-align: left; }
   }
 </style>
 {{- end }}

@@ -14,15 +14,21 @@ taxonomies:
 
 menu:
   main:
+    - name: Home
+      url: /
+      weight: 1
     - name: Research
       url: papers/
-      weight: 1
+      weight: 2
     - name: Teaching
       url: teaching/
-      weight: 2
+      weight: 3
+    - name: CV
+      url: /cv.pdf
+      weight: 4
 
 params:
-  description: "Personal website of Gabriel Rodríguez-Puello, PhD candidate in Economics at Jönköping International Business School."
+  description: "Gabriel Rodríguez-Puello, PhD candidate in Economics at Jönköping International Business School. Labor economics, economics of crime, and development economics. On the 2026–27 job market."
   author: Gabriel Rodríguez-Puello
   DateFormat: "January 2006"
   defaultTheme: light
@@ -63,7 +69,10 @@ params:
     title: Gabriel Rodríguez-Puello
     subtitle: |
       PhD Candidate in Economics · [Jönköping International Business School (JIBS)](https://ju.se/en/research/economics.html) · **On the 2026–27 job market**
-
+    # Rendered right below the subtitle on desktop, but moved below the social
+    # icons and the JMP/CV/Research/Teaching buttons on mobile, so a phone
+    # visitor reaches the four key links without scrolling past the bio.
+    bio: |
       &nbsp;
 
       I am an applied microeconomist studying how economic shocks and changes in economic opportunities affect labor markets, crime, and entrepreneurship, with applications in Europe and Latin America. My job market paper uses Swedish administrative data and a mining boom to show that improved labor market opportunities reduced property crime among young men but increased substance-related offenses. My work combines causal inference methods, including difference-in-differences, event studies, instrumental variables, and causal forests, with large administrative datasets.

@@ -126,10 +126,17 @@
             {{- range site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
             {{- $page_url:= $currentPage.Permalink | absLangURL }}
-            {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
+            {{/* Menu entries that point at a file rather than a page (the CV PDF)
+                 have no matching Page, and calling .Layout on the nil result
+                 fails the build. Only look up the layout when a page exists. */}}
+            {{- $is_search := false }}
+            {{- with (site.GetPage .KeyName) }}
+            {{- $is_search = eq .Layout `search` }}
+            {{- end }}
             <li>
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
-                {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
+                {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}
+                {{- if strings.HasSuffix .URL ".pdf" }} target="_blank" rel="noopener"{{ end }}>
                     <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
                         {{- .Pre }}
                         {{- .Name -}}

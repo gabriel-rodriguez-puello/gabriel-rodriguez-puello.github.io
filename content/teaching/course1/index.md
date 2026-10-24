@@ -1,5 +1,8 @@
 ---
 title: "Teaching Experience"
+# Unlisted: this list now lives directly on /teaching/, so the page is kept
+# as the source of record but no longer built as a duplicate entry.
+draft: true
 date: 2026-01-01
 tags: ["econometrics","macroeconomics","microeconomics","graduate","undergraduate"]
 author: "Gabriel Rodríguez-Puello"

@@ -2,3 +2,8 @@
 public/
 resources/
 .hugo_build.lock
+
+# Local backup copies of published PDFs/audio. Anything in static/ becomes a
+# public URL, so keep these out of the repo.
+static/*_backup_*
+static/**/*_backup_*
