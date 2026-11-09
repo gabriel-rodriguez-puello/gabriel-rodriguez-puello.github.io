@@ -11,6 +11,7 @@ disableAnchoredHeadings: false
 
 **2026**
 - Master thesis co-supervision (8 students), Jönköping University. Main examiner: Orsa Kekezi.
+- Applied Econometrics (Master), Jönköping University (TA). Main examiner: Paul Nystedt.
 
 **2025**
 - Master thesis co-supervision (5 students), Jönköping University. Main examiner: Orsa Kekezi.
@@ -31,6 +32,7 @@ disableAnchoredHeadings: false
 ## Undergraduate Level Courses
 
 **2026**
+- Intermediate Macroeconomics, Jönköping University (TA). Main examiner: Benjamin Larin.
 - Macroeconomic Principles, Jönköping University (TA). Main examiner: Benjamin Larin.
 - Econometrics 2, Jönköping University (TA). Main examiner: Pär Sjölander.
 
