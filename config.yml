@@ -53,8 +53,14 @@ params:
 
   # Social icons — must be at top level, not inside profileMode
   socialIcons:
+    # Both entries use name "Email" because svg.html picks the icon off the
+    # name; "title" is what the tooltip shows, so it distinguishes the two.
     - name: Email
+      title: University Email
       url: mailto:gabriel.rodriguez@ju.se
+    - name: Email
+      title: Personal Email
+      url: mailto:grodriguezpuello@gmail.com
     - name: Phone
       url: tel:+46703344869
     - name: Google Scholar
