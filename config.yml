@@ -55,6 +55,8 @@ params:
   socialIcons:
     - name: Email
       url: mailto:gabriel.rodriguez@ju.se
+    - name: Phone
+      url: tel:+46703344869
     - name: Google Scholar
       url: https://scholar.google.com/citations?user=PYcgp5MAAAAJ
     - name: ORCID
@@ -63,6 +65,16 @@ params:
       url: https://www.linkedin.com/in/gabriel-rodr%C3%ADguez-puello-340b17124/
     - name: GitHub
       url: https://github.com/gabriel-rodriguez-puello
+
+  # Without this, PaperMod's JSON-LD falls back to the socialIcons list for
+  # "sameAs", which is meant for profile URLs only: the mailto: and tel:
+  # entries do not belong there. Listed explicitly instead.
+  schema:
+    sameAs:
+      - https://scholar.google.com/citations?user=PYcgp5MAAAAJ
+      - https://orcid.org/0000-0002-7425-9141
+      - https://www.linkedin.com/in/gabriel-rodr%C3%ADguez-puello-340b17124/
+      - https://github.com/gabriel-rodriguez-puello
 
   profileMode:
     enabled: true
