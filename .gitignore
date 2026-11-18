@@ -7,3 +7,6 @@ resources/
 # public URL, so keep these out of the repo.
 static/*_backup_*
 static/**/*_backup_*
+
+# Local archive of content retired from the site (kept on disk, never deployed).
+archive/
