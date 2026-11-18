@@ -3,18 +3,12 @@ title: "Local Economic Shocks and Entrepreneurship Dynamics"
 date: 2025-09-01
 tags: ["labor economics","entrepreneurship","economic shocks","applied microeconomics"]
 author: ["Gabriel Rodríguez-Puello","Orsa Kekezi"]
-category: "working"
-description: "SOFI Working Papers in Labour Economics 13/2025. Stage: Conditionally accepted, Journal of Economic Behavior and Organization. Joint with Orsa Kekezi."
-summary: "Working paper. **Stage: Conditionally accepted**, ***Journal of Economic Behavior and Organization***. Joint with Orsa Kekezi (Swedish Institute for Social Research, SOFI)."
+category: "published"
+description: "Forthcoming, Journal of Economic Behavior and Organization. SOFI Working Papers in Labour Economics 13/2025. Joint with Orsa Kekezi."
+summary: "Forthcoming, ***Journal of Economic Behavior and Organization***. Joint with Orsa Kekezi (Swedish Institute for Social Research, SOFI)."
 editPost:
     URL: "/paper3.pdf"
     Text: "Download PDF"
----
-
-Listen to a NotebookLM-generated podcast:
-
-<audio controls src="/podcasts/paper3-podcast.m4a" style="width:100%;max-width:500px;"></audio>
-
 ---
 
 ##### Abstract
