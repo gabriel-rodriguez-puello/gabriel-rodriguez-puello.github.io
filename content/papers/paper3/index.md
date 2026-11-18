@@ -1,6 +1,6 @@
 ---
 title: "Local Economic Shocks and Entrepreneurship Dynamics"
-date: 2025-09-01
+date: 2026-11-18
 tags: ["labor economics","entrepreneurship","economic shocks","applied microeconomics"]
 author: ["Gabriel Rodríguez-Puello","Orsa Kekezi"]
 category: "published"
